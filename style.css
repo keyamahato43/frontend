@@ -503,3 +503,49 @@ h1,h1 span{
       .submit-btn:hover {
         background-color: #0056b3;
       }
+      /* Footer styles */
+footer {
+  background-color: #f7e1e1; /* Soft floral color */
+  color: #333;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin: 10px;
+  flex: 1;
+}
+
+.footer-section h3 {
+  font-family: 'Georgia', serif; /* Elegant font for headers */
+  font-size: 1.2rem;
+  color: #a10b42; /* Floral color for the headers */
+}
+
+.footer-section p, .footer-section a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #4c1529;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: left;
+  }
+}
